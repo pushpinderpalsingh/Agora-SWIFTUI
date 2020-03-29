@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF36FFEE243100C700B68AD5 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36FFED243100C700B68AD5 /* NavigationView.swift */; };
 		FF5484B5242AA8FB004F2748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5484B4242AA8FB004F2748 /* AppDelegate.swift */; };
 		FF5484B7242AA8FB004F2748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5484B6242AA8FB004F2748 /* SceneDelegate.swift */; };
 		FF5484BA242AA8FB004F2748 /* Agora.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF5484B8242AA8FB004F2748 /* Agora.xcdatamodeld */; };
@@ -14,9 +15,11 @@
 		FF5484BE242AA8FE004F2748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5484BD242AA8FE004F2748 /* Assets.xcassets */; };
 		FF5484C1242AA8FE004F2748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5484C0242AA8FE004F2748 /* Preview Assets.xcassets */; };
 		FF5484C4242AA8FE004F2748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5484C2242AA8FE004F2748 /* LaunchScreen.storyboard */; };
+		FFA6F4D72430F36F0011D22D /* SearchandProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA6F4D62430F36F0011D22D /* SearchandProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF36FFED243100C700B68AD5 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		FF5484B1242AA8FB004F2748 /* Agora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5484B4242AA8FB004F2748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF5484B6242AA8FB004F2748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		FF5484C0242AA8FE004F2748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF5484C3242AA8FE004F2748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5484C5242AA8FE004F2748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA6F4D62430F36F0011D22D /* SearchandProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchandProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				FF5484B4242AA8FB004F2748 /* AppDelegate.swift */,
 				FF5484B6242AA8FB004F2748 /* SceneDelegate.swift */,
 				FF5484BB242AA8FB004F2748 /* ContentView.swift */,
+				FFA6F4D62430F36F0011D22D /* SearchandProfileView.swift */,
+				FF36FFED243100C700B68AD5 /* NavigationView.swift */,
 				FF5484BD242AA8FE004F2748 /* Assets.xcassets */,
 				FF5484C2242AA8FE004F2748 /* LaunchScreen.storyboard */,
 				FF5484C5242AA8FE004F2748 /* Info.plist */,
@@ -153,6 +159,8 @@
 				FF5484B7242AA8FB004F2748 /* SceneDelegate.swift in Sources */,
 				FF5484BC242AA8FB004F2748 /* ContentView.swift in Sources */,
 				FF5484BA242AA8FB004F2748 /* Agora.xcdatamodeld in Sources */,
+				FF36FFEE243100C700B68AD5 /* NavigationView.swift in Sources */,
+				FFA6F4D72430F36F0011D22D /* SearchandProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
