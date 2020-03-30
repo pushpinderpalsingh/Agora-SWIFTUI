@@ -22,7 +22,7 @@ struct NavigationView: View {
                         .resizable()
                         .frame(width: 25, height: 25)
                     
-                }
+                }.padding(.top,-35)
                 HStack{
                     Spacer()
                     Image(systemName: "house")
